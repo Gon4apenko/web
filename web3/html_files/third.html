@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+         #main{
+    display:grid;
+    grid-template-columns: repeat(4, 2fr);
+    grid-auto-rows: 25px;
+    /*grid-auto-rows: minmax(50px, auto);*/
+    border: 2px solid black;
+    margin-top:15%;
+            margin-bottom:15%;
+            margin-left:30% ;
+            margin-right:30%;
+
+}
+
+#second{
+    grid-row-start:5;
+    grid-row-end:17;
+    border: 1px solid black;
+    background: #FFDAB9;
+
+    grid-column-start:1;
+    grid-column-end:2;
+
+}
+#third{
+    grid-column-start:2;
+    grid-column-end:5;
+    border: 1px solid black;
+    grid-row-start:5;
+    grid-row-end:6;
+
+    background:#98FB98;
+
+}
+#fourth{
+    grid-row-start:6;
+    grid-row-end:17;
+    border: 1px solid black;
+    grid-column-start:2;
+    grid-column-end:4;
+    background:#E8EEF9;
+
+
+
+
+}
+
+
+#fifth{
+    grid-row-start:6;
+    grid-row-end:17;
+    border: 1px solid black;
+    grid-column-start:4;
+    grid-column-end:5;
+    background:#FFDAB9;
+}
+
+#sixth{
+    grid-column-start:2;
+    grid-column-end:4;
+    border: 1px solid black;
+    grid-row-start:16;
+    grid-row-end:19;
+
+    background:#98FB98;
+
+    
+}
+#seventh{
+    grid-row-start:17;
+    grid-row-end:21;
+    border: 1px solid black;
+    grid-column-start:1;
+    grid-column-end:5;
+    background:#6495ED;
+
+    display:grid;
+    grid-template-columns: repeat(20, 1fr);
+    grid-auto-rows: 20px;
+}
+#first{
+    grid-column-start: 1;
+    grid-column-end: 5;
+
+    grid-row-start:1;
+    grid-row-end:5;
+
+    background:#6495ED;
+    border: 1px solid black;
+
+    display:grid;
+    grid-template-columns: repeat(20, 1fr);
+    grid-auto-rows: 20px;
+    
+
+}
+#first #f2{
+    border: 1px solid black;
+
+    grid-row-start:3;
+    grid-row-end:4;
+
+    grid-column-start: 2;
+    grid-column-end: 6;
+    background:white;
+
+    font-weight:bold
+
+}
+#seventh #s2{
+    border: 1px solid black;
+
+    grid-row-start:3;
+    grid-row-end:4;
+
+    grid-column-start: 16;
+    grid-column-end: 20;
+    background:white;
+
+    font-weight:bold
+}
+#seventh #s1{
+
+    text-align: left;
+    grid-column-start: 1;
+    grid-column-end: 20;
+
+    grid-row-start:3;
+    grid-row-end:4;
+}
+#first #f1{
+
+    grid-column-start: 15;
+    grid-column-end: 21;
+
+   /* grid-row-start:5;
+    grid-row-end:6;*/
+
+}
+#second div{
+
+  margin-top: 40%;
+
+    text-align: center;
+
+}
+
+#third div{
+     margin-top:1%;
+    text-align: right;
+
+
+}
+#fourth img{
+            width: 40%;
+           margin-left: 10%;
+        }
+        /*#fourth ul{
+
+    text-align: left;
+    list-style-type: none;
+    font: 20pt/25pt sans-serif;
+}*/
+
+#fifth div{
+            margin-top:40%;
+        }
+    </style>
+</head>
+<body>
+
+<div id="main">
+            <div id="first">
+                <div id="f1">Lorem ipsum dolor sit amet
+                </div>
+                <div id="f2">some text</div>
+            </div>
+            <div id="second">
+                <div>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                </div>
+            </div>
+
+            <div id="third">
+                <div>Lorem Ipsum is simply dummy text of the printing and typesetting industry
+                
+                    
+                </div>
+            </div>
+            <div id="fourth">
+                
+        <ol>
+            <li><a href="first.html">first</a></li>
+                    <li><a href="second.html">second</a></li>
+                    <li><a href="fourth.html">fourth</a></li>
+                    <li><a href="fifth.html">fifth</a></li>
+        </ol>
+        <img src="panda.jpg" usemap="#mymap">
+        <map name="mymap">
+            <area shape="rect" coords="0,0,120,120" alt="Computer" href="main.html">
+            
+        </map>
+
+            </div>
+            <div id="fifth">
+                <div>
+                    Lorem ipsum dolor sit amet
+                </div>
+            </div>
+            <div id="sixth">
+                <div>
+                    Lorem ipsum dolor sit amet
+                    
+                </div>
+            </div>
+            <div id="seventh">
+                <div id="s1">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+                <div id="s2">another text</div>
+            </div>
+        </div>
+</body>
+</html>
