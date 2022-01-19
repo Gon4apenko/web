@@ -1,0 +1,155 @@
+#main{
+    display:grid;
+    grid-template-columns: repeat(4, 2fr);
+    /*grid-auto-rows: 25px;*/
+    grid-auto-rows: minmax(50px, auto);
+    border: 2px solid black;
+
+}
+
+#second{
+    grid-row-start:5;
+    grid-row-end:17;
+    border: 1px solid black;
+    background: #FFDAB9;
+
+    grid-column-start:1;
+    grid-column-end:2;
+
+}
+#third{
+    grid-column-start:2;
+    grid-column-end:5;
+    border: 1px solid black;
+    grid-row-start:5;
+    grid-row-end:6;
+
+    background:#98FB98;
+
+}
+#fourth{
+    grid-row-start:6;
+    grid-row-end:16;
+    border: 1px solid black;
+    grid-column-start:2;
+    grid-column-end:4;
+    background:#E8EEF9;
+
+
+
+
+}
+#fourth ul{
+
+    text-align: left;
+    list-style-type: none;
+    font: 32pt/30pt sans-serif;
+}
+
+#fifth{
+    grid-row-start:6;
+    grid-row-end:17;
+    border: 1px solid black;
+    grid-column-start:4;
+    grid-column-end:5;
+    background:#FFDAB9;
+}
+
+#sixth{
+    grid-column-start:2;
+    grid-column-end:4;
+    border: 1px solid black;
+    grid-row-start:16;
+    grid-row-end:17;
+
+    background:#98FB98;
+
+    
+}
+#seventh{
+    grid-row-start:17;
+    grid-row-end:21;
+    border: 1px solid black;
+    grid-column-start:1;
+    grid-column-end:5;
+    background:#6495ED;
+
+    display:grid;
+    grid-template-columns: repeat(20, 1fr);
+    grid-auto-rows: 20px;
+}
+#first{
+    grid-column-start: 1;
+    grid-column-end: 5;
+
+    grid-row-start:1;
+    grid-row-end:5;
+
+    background:#6495ED;
+    border: 1px solid black;
+
+    display:grid;
+    grid-template-columns: repeat(20, 1fr);
+    grid-auto-rows: 20px;
+    /*grid-template-rows: repeat(20, 1fr);*/
+    /*white-space: nowrap; */
+
+}
+#first #f2{
+    border: 1px solid black;
+
+    grid-row-start:5;
+    grid-row-end:6;
+
+    grid-column-start: 2;
+    grid-column-end: 6;
+    background:white;
+
+    font-weight:bold
+
+}
+#seventh #s2{
+    border: 1px solid black;
+
+    grid-row-start:5;
+    grid-row-end:6;
+
+    grid-column-start: 16;
+    grid-column-end: 20;
+    background:white;
+
+    font-weight:bold
+}
+#seventh #s1{
+
+    text-align: left;
+    grid-column-start: 1;
+    grid-column-end: 20;
+
+    grid-row-start:5;
+    grid-row-end:6;
+}
+#first #f1{
+
+    grid-column-start: 15;
+    grid-column-end: 21;
+
+   /* grid-row-start:5;
+    grid-row-end:6;*/
+
+}
+#second div{
+
+/*    margin-top: 40%;*/
+
+    text-align: center;
+
+}
+
+#third div{
+    margin-top:1%;
+    text-align: right;
+
+
+}
+
